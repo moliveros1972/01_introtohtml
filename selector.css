@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/* All Selector */
+*{
+    color: black;
+}
+
+/* Element Selector */
+p{
+    color: dodgerblue;
+}
+/* Class Selector */
+.para{
+    color: red;
+}
+/* ID Selector */
+#graph{
+    color: gray;
+}
+/* descendent selector */
+ul li{
+    border: 2px dotted green;
+    font-size: 26px;
+}
+/* link and visited (pseudo selector) */
+a:link{
+color: orange;
+font-size: 30px;
+}
+a:visited{
+    color: green;
+    font-size: 18px;
+}
+/* Attribute Selector */
+img[src]{
+    max-width: 200px;
+}
+/* Attribute Selector by value */
+img[alt="baloo"]{
+    max-width: 40vw;
+}
+/* Attribute Selector by value of the beginning */
+a[href^="https"]{
+    text-decoration: none;
+}
+/* Attribute Selector by value of the ending */
+img[src$="2Q=="]{
+    border: 10px dashed purple;
+}
+/* hover pseudo selector */
+p:hover{
+    font-size: 30px;
+}
+/* First letter pseudo class */
+p::first-letter{
+    font-size: 26px;
+    font-weight: bold;
+}
+
+
